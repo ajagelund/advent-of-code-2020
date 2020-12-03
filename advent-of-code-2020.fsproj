@@ -3,10 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>advent_of_code_2020</RootNamespace>
+    <RootNamespace>Advent.Twenty</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="common\FileHandling.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
