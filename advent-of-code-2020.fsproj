@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <Compile Include="common\FileHandling.fs" />
+    <Compile Include="days\Day2001-1.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
