@@ -1,4 +1,8 @@
 files/*
-!files/yydd-n.txt
+!files/yydd.txt
 obj
 bin
+
+.fake
+.ionide
+.vscode

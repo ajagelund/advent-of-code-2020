@@ -9,8 +9,8 @@ let from whom =
 
 [<EntryPoint>]
 let main argv =
-    let message = from "F#" // Call the function
-    printfn "Hello world %s" message
+    // let message = from "F#" // Call the function
+    // printfn "Hello world %s" message
 
     // let userinput = System.Console.ReadLine();
     // printfn ">> %s" userinput
@@ -23,11 +23,7 @@ let main argv =
 //     | C -> "c"
 //     //NO default match
 
+    let res1 = Day2001.Part1.Run
+    // let res2 = Day2001.Part2.Run
 
- 
-
-    Day2001.Run
-
-    // for line in content.sort do
-    //     printfn "%s" line
-    // return an integer exit code
+    0

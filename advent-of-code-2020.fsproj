@@ -1,19 +1,20 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <RootNamespace>Advent.Twenty</RootNamespace>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Advent.Twenty</RootNamespace>
   </PropertyGroup>
-
+  <ItemGroup>
+    <Compile Include="common/FileHandling.fs" />
+    <Compile Include="common/PrintHandling.fs" />
+    <Compile Include="common/SequenceHandling.fs" />
+    <Compile Include="days/Day2001.fs" />
+    <Compile Include="days/Day2001-1.fs" />
+    <Compile Include="days/Day2001-2.fs" />
+    <Compile Include="Program.fs" />
+    <None Include="samples.txt.fs" />
+  </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
   </ItemGroup>
-  
-  <ItemGroup>
-    <Compile Include="common\FileHandling.fs" />
-    <Compile Include="days\Day2001-1.fs" />
-    <Compile Include="Program.fs" />
-  </ItemGroup>
-
 </Project>

@@ -1,0 +1,6 @@
+# This is a sample file
+# Name all your sample data files for each assignment accordning to yydd.txt
+#
+# Where:
+# yy - year (eg. 20)
+# dd - date (eg. 01)
